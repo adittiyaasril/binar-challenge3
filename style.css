@@ -1,0 +1,210 @@
+.first-section {
+  font-family: "Open Sans", sans-serif;
+}
+.navbar {
+  background: rgba(0, 0, 0, 0.4);
+  font-weight: bold;
+  font-size: 0.75rem;
+}
+.first-section {
+  background-image: url(./images/main-bg.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 120vh;
+}
+.title {
+  padding-top: 13.75rem;
+  text-align: center;
+}
+h1,
+h2,
+h3,
+h5,
+p {
+  color: white;
+}
+
+h1 {
+  font-size: 5rem;
+
+  font-weight: bold;
+}
+h3 {
+  font-size: 1.5rem;
+}
+
+.heading {
+  margin-bottom: 3.5%;
+}
+
+.play-button {
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px 80px;
+}
+
+.slide-btn {
+  margin-top: 5%;
+}
+
+.second-section {
+  background-image: url(./images/the-games-bg.jpg);
+  background-size: cover;
+  height: 120vh;
+  background-position: center;
+  padding: 15% 3%;
+  font-family: "Bebas Neue", cursive;
+}
+
+/* .image-slider {
+  padding-left: 170px;
+} */
+.carousel-control-next-icon {
+  background-image: url(./images/switch-right.svg);
+}
+.carousel-control-prev-icon {
+  background-image: url(./images/switch-left.svg);
+}
+.carousel .carousel-indicators button {
+  width: 20px;
+  height: 20px;
+  margin: 0px 15px -15px;
+  background-color: transparent;
+  border-radius: 50%;
+  -webkit-box-shadow: inset 0px 0px 0px 1px white;
+  box-shadow: inset 0px 0px 0px 1px white;
+}
+
+.carousel .carousel-indicators button .active {
+  background-color: white !important;
+}
+
+.carausel-items {
+  margin: 7% 15%;
+}
+
+.third-section {
+  background-image: url(./images/features.jpg);
+  background-size: cover;
+  height: 120vh;
+  padding: 10%;
+}
+.features h2 {
+  color: yellowgreen;
+}
+
+.vl {
+  border-left: 6px solid white;
+  height: 200px;
+  position: relative;
+  margin-left: 15px;
+  margin-top: -90px;
+  margin-bottom: -15px;
+}
+.circle {
+  float: left;
+  margin: 10px;
+  padding-top: 5px;
+}
+
+.large-text {
+  padding-left: 20px;
+}
+.small-text {
+  padding-left: 40px;
+  font-size: 20px;
+}
+
+.fourth-section {
+  background-image: url(./images/requirements.png);
+  background-size: cover;
+  height: 120vh;
+  padding-top: 5%;
+  padding-bottom: 50rem;
+}
+
+.text-center {
+  margin-bottom: 3%;
+}
+.spec {
+  color: yellowgreen;
+}
+
+.fifth-section {
+  background-image: url(./images/top-score-bg.png);
+  background-size: cover;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.top-score {
+  margin: 3%;
+  width: 25rem;
+}
+
+.top-scores-left {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  flex-direction: column;
+}
+
+.top-scores-left h2 {
+  font-size: 16px;
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+
+.see-more {
+  padding: 15px 50px;
+  font-weight: bold;
+}
+
+.rounded-circle {
+  width: 60px;
+  height: 60px;
+  float: left;
+}
+.player {
+  padding-left: 90px;
+}
+
+.twitter-card {
+  float: right;
+  margin-top: -60px;
+}
+
+.sixth-section {
+  background-image: url(./images/newsletter.png);
+  background-size: cover;
+  padding-top: 8%;
+  text-align: center;
+}
+
+.newsletter {
+  text-align: left;
+}
+
+/* .subscribe-form {
+  border: 1px solid grey;
+  font-size: 20px;
+  color: #ffc107;
+} */
+.submit-btn {
+  margin-left: 1rem;
+}
+
+.footer-section {
+  background-image: url(./images/newsletter.png);
+  background-size: cover;
+  padding-top: 7%;
+}
+
+.footer-section a {
+  text-decoration: none;
+  color: white;
+  font-size: 0.75rem;
+  font-weight: bold;
+  margin-left: 2vw;
+}
